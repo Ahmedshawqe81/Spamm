@@ -4,8 +4,7 @@ const client2 = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-});
-
+})
 client.on('ready', async() => {
 var server = "533260175185018891"; // ايدي السررفر
 var channel = "533735844016685098";//ايدي الروم
