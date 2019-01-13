@@ -32,7 +32,7 @@ if(message.author.id !== "#daily") return;
 var args = message.content.split(' ').slice(1).join(' ');
 message.channel.send(args);
 }
-});
+})
  
 client.on('message', message => {
 if(message.content.startsWith('2s')) {
@@ -40,18 +40,18 @@ if(message.author.id !== "#daily") return;
 var args = message.content.split(' ').slice(1).join(' ');
 message.channel.send(args);
 }
-});
+})
  client.on('message', message => {
     if(message.content === '-راتب'){
         message.channel.send('#daily')
     }
-});
+})
 
 client.on('message', message => {
     if(message.content === '-مبلغ'){
         message.channel.send('#credits')
     }
-});
+})
 
 
 
