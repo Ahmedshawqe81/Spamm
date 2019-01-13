@@ -12,7 +12,7 @@ var channel = "533735844016685098";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('** Hi , Hi , Hi , Hi ,Hi ,Hi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,Hi Dreaaam ,   **[ " ${x} " ]**    محض ميضو لقمد نقققققق محمض ميضو لقمد نق محمض ميضو لقمد نق محمض ميضو القمد نق محمض ميضو لقمد نق #سيث رولنظ**')
    
-});
+})
 
 
 
@@ -22,7 +22,7 @@ var channel = "533735844016685098";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('#daily')
     },8.64e+7);
-});
+})
 
 
 
