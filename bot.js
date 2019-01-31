@@ -21,45 +21,45 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '$daily'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '$credit'){
         message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
+    if(message.content === '$rep'){
+        message.channel.send('#rep <@521763526436585472>')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '$daily'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '$credit'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
+    if(message.content === '$rep'){
+        message.channel.send('#rep <@521763526436585472>')
     }
 });
 
 
 
 client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam') {
+if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -73,7 +73,7 @@ if (message.content === '!spam') {
 });
 
 client2.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam') {
+if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -89,13 +89,13 @@ if (message.content === '!spam') {
 
 
 client3.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
+    if(message.content === '$rep'){
+        message.channel.send('#rep <@521763526436585472>')
     }
 });
 
 client3.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam') {
+if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -110,7 +110,7 @@ if (message.content === '!spam') {
 
 
 client4.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam') {
+if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -139,13 +139,13 @@ if (message.content === '!spam') {
 
 
 client3.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '$credit'){
         message.channel.send('#credits')
     }
 });
 
 client4.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '$credit'){
         message.channel.send('#credits')
     }
 });
@@ -161,14 +161,14 @@ client4.on('message', message => {
 
 
 client4.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '$daily'){
         message.channel.send('#daily')
     }
 });
 
 
 client3.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '$daily'){
         message.channel.send('#daily')
     }
 });
